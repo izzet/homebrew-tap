@@ -1,13 +1,13 @@
 cask "quotabubble" do
-  version "0.2.4"
+  version "0.2.5"
 
   on_arm do
-    sha256 "6415785d22696874a557a2b882d1c161ecfe625f62f2592c771fdf2fe8a3af1b"
+    sha256 "9e8aa9738358b82e720942a358c034954b264fa1f609e16cc6db769dca8b5d71"
     url "https://github.com/izzet/quotabubble/releases/download/v#{version}/QuotaBubble-macos-arm64.dmg"
   end
 
   on_intel do
-    sha256 "cd981a4b9fdd417c8955723e4bb2fe3a254a1f98b93279a14f8bf0308c1f3929"
+    sha256 "92ee7decea1ae2fdf08b2cc5827c19140e87f68e6eb2529f84793dc4c8fe5914"
     url "https://github.com/izzet/quotabubble/releases/download/v#{version}/QuotaBubble-macos-x64.dmg"
   end
 
